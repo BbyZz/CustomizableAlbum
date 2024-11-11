@@ -1,0 +1,68 @@
+
+
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .visible {
+    opacity: 1;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .img {
+    position: relative;
+    margin-top: 25%;
+    height: 300px;
+    width: 406px;
+    border: dashed;
+    
+  }
+
+  .Remarks {
+    position: relative;
+    margin-top: 5%;
+    height: 100px;
+    width: 300px;
+  }
+
+  .largebox {
+    width: 400px;
+    height: 100px;
+  }
+
+  .button {
+    position: relative;
+    margin-top: 5%;
+    height: 100px;
+    width: 300px;
+  }
+
+ .nxt_btn {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 50%;
+ }
+
+  input[type="text"]::placeholder {  
+    text-align: center;  
+        }  
+
